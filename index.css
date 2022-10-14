@@ -1,0 +1,42 @@
+#ir7i {
+  float: none;
+  text-align: center;
+  text-decoration: underline;
+  font-size: 25px;
+}
+#i0yrx {
+  border-left: solid 2px gray;
+  margin-left: 12px;
+  padding-left: 18px;
+  min-height: 18px;
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 14px;
+}
+#iqjsn {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.heading {
+  font-size: 22px;
+  text-decoration: underline;
+  margin: 0 0 8px 3px;
+}
+.paragraph {
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 0 16px 5px;
+}
+@media (max-width: 480px) {
+  .heading {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    text-align: center;
+    text-decoration: underline;
+  }
+  .paragraph {
+    text-align: center;
+  }
+}
